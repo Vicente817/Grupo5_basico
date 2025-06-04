@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import unidecode
 import os
+
 chunks = pd.read_csv("C:\\Users\\vicen\\Downloads\\MICRODADOS_ENEM_2023.csv", sep=';', encoding='latin1', chunksize=10000)
 medianotas = pd.DataFrame()
 soma = {}
